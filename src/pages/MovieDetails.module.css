@@ -1,3 +1,26 @@
 .detailsContainer{
-   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
 }
+
+.col{
+    max-width: 400px;
+    margin: 15px;
+}
+
+.Movieimg{
+    border-radius: 15px;
+    height: auto;
+    height: 80%;
+}
+
+.MovieDetails{
+    font-size: 1.5rem;
+}
+
+.FirtsItem{
+    margin-top: 0;
+}
+
+
