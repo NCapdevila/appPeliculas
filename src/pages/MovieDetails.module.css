@@ -9,17 +9,17 @@
     margin: 15px;
 }
 
-.Movieimg{
+.movieImage{
     border-radius: 15px;
     height: auto;
     height: 80%;
 }
 
-.MovieDetails{
+.movieDetails{
     font-size: 1.5rem;
 }
 
-.FirtsItem{
+.firstItem{
     margin-top: 0;
 }
 
