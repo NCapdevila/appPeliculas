@@ -1,8 +1,10 @@
 import style from './MovieCard.module.css'
 import { Link } from 'react-router-dom';
+import placeHolder from '../../utils/descarga.png'
 
 function MovieCard({movie}){
-const imgUrl = "https://image.tmdb.org/t/p/w300" + movie.poster_path
+const imgUrl = movie.poster_path ? "https://image.tmdb.org/t/p/w300" + movie.poster_path 
+                :placeHolder;
 
     return(
         <li className={style.movieCard}>
